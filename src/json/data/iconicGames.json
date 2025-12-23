@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Fortnite",
+    "category": "Battle Royale",
+    "image": "https://wallpapers.com/images/featured-full/fortnite-1920x1080-hd-cvavgntkwzkn72rg.jpg",
+    "isFree": true,
+    "rating": 4.8,
+    "color": "from-orange-500 to-pink-600"
+  },
+  {
+    "id": 2,
+    "title": "Valorant",
+    "category": "Tactical FPS",
+    "image": "https://wallpapers.com/images/featured-full/4k-hd-valorant-apq88vup55ep5pvt.jpg",
+    "isFree": true,
+    "rating": 4.6,
+    "color": "from-red-500 to-purple-600"
+  },
+  {
+    "id": 3,
+    "title": "Genshin Impact",
+    "category": "Action RPG",
+    "image": "https://wallpapers.com/images/featured-full/genshin-impact-wlq3ykrxbaoadjow.jpg",
+    "isFree": true,
+    "rating": 4.7,
+    "color": "from-blue-500 to-teal-400"
+  },
+  {
+    "id": 4,
+    "title": "Apex Legends",
+    "category": "Battle Royale",
+    "image": "https://wallpapers.com/images/featured-full/apex-legends-4k-ufuh3yiyskde5os6.jpg",
+    "isFree": true,
+    "rating": 4.5,
+    "color": "from-green-500 to-cyan-400"
+  },
+  {
+    "id": 5,
+    "title": "Marvel Rivals",
+    "category": "Shooter",
+    "image": "https://images4.alphacoders.com/135/thumb-1920-1358386.jpeg",
+    "isFree": true,
+    "rating": 4.3,
+    "color": "from-indigo-500 to-purple-500"
+  }
+]

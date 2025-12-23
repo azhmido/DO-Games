@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Fortnite",
+    "category": "Battle Royale",
+    "image": "https://www.freetogame.com/g/57/thumbnail.jpg",
+    "isFree": true,
+    "rating": 4.8,
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Rocket League",
+    "category": "Sports",
+    "image": "https://www.freetogame.com/g/474/thumbnail.jpg",
+    "isFree": true,
+    "rating": 4.5,
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Genshin Impact",
+    "category": "Action RPG",
+    "image": "https://www.freetogame.com/g/475/thumbnail.jpg",
+    "isFree": true,
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Valorant",
+    "category": "FPS",
+    "image": "https://www.freetogame.com/g/466/thumbnail.jpg",
+    "isFree": true,
+    "rating": 4.6,
+    "featured": false
+  }
+]
