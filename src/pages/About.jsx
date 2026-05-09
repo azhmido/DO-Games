@@ -263,20 +263,6 @@ function About() {
                   <Sparkles className="w-4 h-4" />
                 </Link>
               </motion.div>
-              
-              <motion.div
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                transition={{ type: "spring", stiffness: 400 }}
-              >
-                <Link
-                  to="/explore"
-                  className="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-slate-800/50 hover:bg-slate-700/50 border border-slate-700/50 hover:border-sky-500/30 text-sky-400 hover:text-white transition-all"
-                >
-                  <Compass className="w-5 h-5" />
-                  <span>{t("nav.explore")}</span>
-                </Link>
-              </motion.div>
             </div>
             
             <p className="text-sm text-slate-500 mt-8">

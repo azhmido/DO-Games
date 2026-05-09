@@ -39,13 +39,11 @@ function Navbar() {
   const navLinks = [
     { to: "/", icon: <Home className="w-4 h-4" />, label: t("nav.home") },
     { to: "/games", icon: <Grid3x3 className="w-4 h-4" />, label: t("nav.games") },
-    { to: "/explore", icon: <Compass className="w-4 h-4" />, label: t("nav.explore") },
     { to: "/about", icon: <Info className="w-4 h-4" />, label: t("nav.about") },
   ];
 
   const userLinks = [
     { to: "/profile", icon: <Settings className="w-4 h-4" />, label: t("nav.profile") },
-    { to: "/favorites", icon: <Heart className="w-4 h-4" />, label: t("nav.favorites") },
   ];
 
   return (

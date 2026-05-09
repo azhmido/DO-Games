@@ -3,7 +3,7 @@ import games from "../json/data/games.json";
 import GameCard from "../components/GameCard";
 import Pagination from "../components/Pagination";
 import { motion, AnimatePresence } from "framer-motion";
-import { Search, Filter, SortAsc, Grid3x3, List, Gamepad2, Sparkles, Sliders, X, TrendingUp, Users, Zap, Clock, Menu, ChevronDown, ChevronUp } from "lucide-react";
+import { Search, Filter, SortAsc, Grid3x3, Gamepad2, Sparkles, Sliders, X, TrendingUp, Users, Zap, Clock, Menu, ChevronDown, ChevronUp } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 
 function Games() {
@@ -236,7 +236,7 @@ function Games() {
           {/* Filter Controls - Desktop */}
           <div className="hidden md:grid md:grid-cols-12 gap-3 md:gap-4">
             {/* Search */}
-            <div className="md:col-span-4">
+            <div className="md:col-span-5">
               <div className="relative group">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 md:w-5 md:h-5 text-slate-400 group-focus-within:text-sky-400" />
                 <input
@@ -249,7 +249,7 @@ function Games() {
             </div>
 
             {/* Genre Filter */}
-            <div className="md:col-span-3">
+            <div className="md:col-span-4">
               <div className="relative group">
                 <Filter className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 md:w-5 md:h-5 text-slate-400" />
                 <select
@@ -287,34 +287,6 @@ function Games() {
                 <div className="absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none">
                   <ChevronDown className="w-4 h-4 text-slate-400" />
                 </div>
-              </div>
-            </div>
-
-            {/* View Toggle */}
-            <div className="md:col-span-2">
-              <div className="flex h-full bg-slate-900/50 border border-slate-700/30 rounded-xl p-1">
-                <button
-                  onClick={() => setViewMode("grid")}
-                  className={`flex-1 flex items-center justify-center gap-1.5 md:gap-2 py-1.5 md:py-2 rounded-lg transition-all ${
-                    viewMode === "grid" 
-                      ? "bg-slate-800 text-white shadow-lg" 
-                      : "text-slate-400 hover:text-white hover:bg-slate-800/50"
-                  }`}
-                >
-                  <Grid3x3 className="w-3 h-3 md:w-4 md:h-4" />
-                  <span className="text-xs md:text-sm font-medium">{t("games.grid")}</span>
-                </button>
-                <button
-                  onClick={() => setViewMode("list")}
-                  className={`flex-1 flex items-center justify-center gap-1.5 md:gap-2 py-1.5 md:py-2 rounded-lg transition-all ${
-                    viewMode === "list" 
-                      ? "bg-slate-800 text-white shadow-lg" 
-                      : "text-slate-400 hover:text-white hover:bg-slate-800/50"
-                  }`}
-                >
-                  <List className="w-3 h-3 md:w-4 md:h-4" />
-                  <span className="text-xs md:text-sm font-medium">{t("games.list")}</span>
-                </button>
               </div>
             </div>
           </div>
@@ -370,31 +342,6 @@ function Games() {
                   <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-slate-400" />
                 </div>
               </div>
-              
-              <div className="flex bg-slate-900/50 border border-slate-700/30 rounded-xl p-1">
-                <button
-                  onClick={() => setViewMode("grid")}
-                  className={`flex-1 flex items-center justify-center gap-2 py-2 rounded-lg text-sm ${
-                    viewMode === "grid" 
-                      ? "bg-slate-800 text-white" 
-                      : "text-slate-400 hover:text-white"
-                  }`}
-                >
-                  <Grid3x3 className="w-4 h-4" />
-                  {t("games.grid")}
-                </button>
-                <button
-                  onClick={() => setViewMode("list")}
-                  className={`flex-1 flex items-center justify-center gap-2 py-2 rounded-lg text-sm ${
-                    viewMode === "list" 
-                      ? "bg-slate-800 text-white" 
-                      : "text-slate-400 hover:text-white"
-                  }`}
-                >
-                  <List className="w-4 h-4" />
-                  {t("games.list")}
-                </button>
-              </div>
             </motion.div>
           )}
 
@@ -432,7 +379,7 @@ function Games() {
           </div>
         </motion.div>
 
-        {/* Games Grid/List */}
+        {/* Games Grid */}
         <AnimatePresence mode="wait">
           {isLoading ? (
             <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
@@ -442,9 +389,7 @@ function Games() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: i * 0.05 }}
-                  className={`bg-slate-900/30 rounded-2xl animate-pulse ${
-                    viewMode === "grid" ? "h-48 sm:h-56 md:h-64 lg:h-72" : "h-32"
-                  }`}
+                  className="bg-slate-900/30 rounded-2xl animate-pulse h-48 sm:h-56 md:h-64 lg:h-72"
                 />
               ))}
             </div>
@@ -452,11 +397,7 @@ function Games() {
             <>
               <motion.div 
                 layout
-                className={`${
-                  viewMode === "grid" 
-                    ? "grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6" 
-                    : "flex flex-col gap-4 md:gap-6"
-                }`}
+                className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6"
               >
                 {paginatedGames.map((game, index) => (
                   <GameCard 

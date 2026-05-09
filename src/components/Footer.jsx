@@ -12,7 +12,6 @@ function Footer() {
     { name: t("nav.home"), path: "/", icon: "🏠" },
     { name: t("nav.games"), path: "/games", icon: "🎮" },
     { name: t("nav.about"), path: "/about", icon: "ℹ️" },
-    { name: t("nav.explore"), path: "/explore", icon: "🧭" },
     { name: t("nav.login"), path: "/login", icon: "🔐" },
     { name: t("nav.register"), path: "/register", icon: "✨" },
   ];

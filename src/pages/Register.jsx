@@ -51,7 +51,6 @@ function Register() {
         email: formData.email.trim(),
         password: formData.password,
         createdAt: new Date().toISOString(),
-        favorites: [],
         gameHistory: []
       };
       users.push(newUser);
@@ -69,7 +68,6 @@ function Register() {
 
   const benefits = [
     { icon: <Gamepad2 className="w-5 h-5" />, text: t("register.benefits.personalized_recommendations"), color: "from-sky-500 to-cyan-400", bg: "bg-sky-500/10" },
-    { icon: "❤️", text: t("nav.favorites"), color: "from-pink-500 to-rose-400", bg: "bg-pink-500/10" },
     { icon: <Users className="w-5 h-5" />, text: t("register.benefits.join_communities"), color: "from-purple-500 to-violet-400", bg: "bg-purple-500/10" },
     { icon: <Award className="w-5 h-5" />, text: t("register.benefits.exclusive_perks"), color: "from-amber-500 to-yellow-400", bg: "bg-amber-500/10" },
     { icon: <Shield className="w-5 h-5" />, text: t("register.benefits.secure_saves"), color: "from-emerald-500 to-green-400", bg: "bg-emerald-500/10" },

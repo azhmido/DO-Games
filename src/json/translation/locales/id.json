@@ -2,7 +2,6 @@
   "nav": {
     "home": "Beranda",
     "games": "Permainan",
-    "explore": "Jelajahi",
     "about": "Tentang",
     "dashboard": "Dasbor",
     "profile": "Profil",
@@ -241,27 +240,6 @@
       "coming_soon": "Segera Hadir"
     }
   },
-  "explore": {
-    "smart_discovery": "Penemuan Cerdas",
-    "discover_your": "Temukan",
-    "next_favorite_game": "Game Favorit Berikutnya",
-    "favorite_genre": "Genre Favorit",
-    "total_playtime": "Total Waktu Main",
-    "skill_level": "Level Keterampilan",
-    "recommendations": "Rekomendasi",
-    "search_placeholder": "Cari game, genre, atau fitur...",
-    "filter_games": "Filter Game",
-    "beginner_friendly": "Ramah Pemula",
-    "best_multiplayer": "Multiplayer Terbaik",
-    "trending_up": "Naik",
-    "trending_stable": "Stabil",
-    "avg_playtime": "Rata-rata Waktu Main",
-    "difficulty": "Kesulitan",
-    "rating": "Rating",
-    "players": "Pemain",
-    "platforms": "Platform",
-    "tags": "Tag"
-  },
   "game_stats": {
     "total_games": "Total Game",
     "active_players": "Pemain Aktif",
@@ -286,36 +264,6 @@
     "last_played": "Terakhir dimainkan",
     "quick_actions": "Aksi Cepat",
     "next_level_hint": "Mainkan lebih banyak game untuk naik level!"
-  },
-  "favorites": {
-    "my_collection": "Koleksi Saya",
-    "subtitle": "Koleksi pribadi game favorit Anda",
-    "games_saved": "game tersimpan",
-    "search_placeholder": "Cari game favorit Anda...",
-    "sign_in_required": "Silakan masuk untuk melihat game favorit Anda",
-    "loading": "Memuat game favorit Anda...",
-    "default_description": "Game seru dengan gameplay yang bagus.",
-    "default_game_description": "Gameplay seru dengan grafis menakjubkan dan pengalaman imersif.",
-    "players": "pemain",
-    "games_selected": "game terpilih",
-    "deselect_all": "Batalkan Semua Pilihan",
-    "select_all": "Pilih Semua",
-    "remove_selected": "Hapus yang Dipilih",
-    "share_list": "Bagikan Daftar",
-    "rating": "rating",
-    "showing_results": "Menampilkan {{showing}} dari {{total}} game",
-    "explore_more": "Jelajahi Game Lainnya",
-    "empty_title": "Daftar Favorit Anda Kosong",
-    "empty_description": "Mulailah membangun koleksi gaming Anda dengan menambahkan game yang Anda sukai",
-    "no_matches": "Tidak ada game yang cocok dengan filter Anda. Coba ubah kriteria pencarian.",
-    "browse_games": "Jelajahi Game",
-    "removed_selected": "{{count}} game dihapus",
-    "sort": {
-      "recent": "Baru Ditambahkan",
-      "name": "Nama (A-Z)",
-      "rating": "Rating Tertinggi",
-      "popular": "Paling Populer"
-    }
   },
   "about": {
     "story_title": "Cerita Kami",

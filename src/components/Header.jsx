@@ -202,19 +202,6 @@ function Header() {
               <ArrowRight className="w-4 h-4 relative z-10 group-hover:translate-x-1 transition-transform" />
             </Link>
           </motion.div>
-          
-          <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-            <Link
-              to="/explore"
-              className="group relative inline-flex items-center gap-3 px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl bg-slate-900/30 backdrop-blur-sm border border-slate-700/50 hover:border-slate-600/70 transition-all duration-300 overflow-hidden"
-            >
-              <div className="absolute inset-0 bg-linear-to-r from-white/0 via-white/5 to-white/0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
-              <span className="font-semibold text-slate-300 group-hover:text-white relative z-10">
-                {t("nav.explore")}
-              </span>
-              <Zap className="w-4 h-4 text-amber-400/70 group-hover:text-amber-400 relative z-10 group-hover:scale-110 transition-transform" />
-            </Link>
-          </motion.div>
         </motion.div>
 
         {/* Scroll Indicator */}

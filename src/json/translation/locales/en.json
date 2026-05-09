@@ -2,7 +2,6 @@
   "nav": {
     "home": "Home",
     "games": "Games",
-    "explore": "Explore",
     "about": "About",
     "dashboard": "Dashboard",
     "profile": "Profile",
@@ -241,27 +240,6 @@
       "coming_soon": "Coming Soon"
     }
   },
-  "explore": {
-    "smart_discovery": "Smart Discovery",
-    "discover_your": "Discover Your",
-    "next_favorite_game": "Next Favorite Game",
-    "favorite_genre": "Favorite Genre",
-    "total_playtime": "Total Playtime",
-    "skill_level": "Skill Level",
-    "recommendations": "Recommendations",
-    "search_placeholder": "Search games, genres, or features...",
-    "filter_games": "Filter Games",
-    "beginner_friendly": "Beginner Friendly",
-    "best_multiplayer": "Best Multiplayer",
-    "trending_up": "Rising",
-    "trending_stable": "Stable",
-    "avg_playtime": "Avg Playtime",
-    "difficulty": "Difficulty",
-    "rating": "Rating",
-    "players": "Players",
-    "platforms": "Platforms",
-    "tags": "Tags"
-  },
   "game_stats": {
     "total_games": "Total Games",
     "active_players": "Active Players",
@@ -286,36 +264,6 @@
     "last_played": "Last played",
     "quick_actions": "Quick Actions",
     "next_level_hint": "Play more games to level up!"
-  },
-  "favorites": {
-    "my_collection": "My Collection",
-    "subtitle": "Your personal collection of favorite games",
-    "games_saved": "games saved",
-    "search_placeholder": "Search your favorite games...",
-    "sign_in_required": "Please sign in to view your favorite games",
-    "loading": "Loading your favorite games...",
-    "default_description": "An exciting game with great gameplay.",
-    "default_game_description": "Exciting gameplay with stunning graphics and immersive experience.",
-    "players": "players",
-    "games_selected": "games selected",
-    "deselect_all": "Deselect All",
-    "select_all": "Select All",
-    "remove_selected": "Remove Selected",
-    "share_list": "Share List",
-    "rating": "rating",
-    "showing_results": "Showing {{showing}} of {{total}} games",
-    "explore_more": "Explore More Games",
-    "empty_title": "Your Favorites List is Empty",
-    "empty_description": "Start building your gaming collection by adding games you love",
-    "no_matches": "No games match your current filters. Try adjusting your search criteria.",
-    "browse_games": "Browse Games",
-    "removed_selected": "{{count}} games removed",
-    "sort": {
-      "recent": "Recently Added",
-      "name": "Name (A-Z)",
-      "rating": "Highest Rated",
-      "popular": "Most Popular"
-    }
   },
   "about": {
     "story_title": "Our Story",

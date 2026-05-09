@@ -377,19 +377,6 @@ function Profile() {
               <h3 className="text-xl font-bold mb-6">{t("profile.quick_actions") || "Quick Actions"}</h3>
               <div className="space-y-3">
                 <Link
-                  to="/favorites"
-                  className="flex items-center justify-between p-4 bg-slate-900/50 hover:bg-slate-900 rounded-2xl transition group"
-                >
-                  <div className="flex items-center gap-3">
-                    <div className="p-2 bg-pink-500/10 rounded-lg">
-                      <Heart className="text-pink-400" size={18} />
-                    </div>
-                    <span>{t("nav.favorites") || "My Favorites"}</span>
-                  </div>
-                  <ChevronRight className="text-slate-500 group-hover:text-slate-300 group-hover:translate-x-1 transition" size={16} />
-                </Link>
-                
-                <Link
                   to="/games"
                   className="flex items-center justify-between p-4 bg-slate-900/50 hover:bg-slate-900 rounded-2xl transition group"
                 >
@@ -398,19 +385,6 @@ function Profile() {
                       <Gamepad2 className="text-sky-400" size={18} />
                     </div>
                     <span>{t("nav.games") || "Browse Games"}</span>
-                  </div>
-                  <ChevronRight className="text-slate-500 group-hover:text-slate-300 group-hover:translate-x-1 transition" size={16} />
-                </Link>
-                
-                <Link
-                  to="/explore"
-                  className="flex items-center justify-between p-4 bg-slate-900/50 hover:bg-slate-900 rounded-2xl transition group"
-                >
-                  <div className="flex items-center gap-3">
-                    <div className="p-2 bg-emerald-500/10 rounded-lg">
-                      <Globe className="text-emerald-400" size={18} />
-                    </div>
-                    <span>{t("nav.explore") || "Explore"}</span>
                   </div>
                   <ChevronRight className="text-slate-500 group-hover:text-slate-300 group-hover:translate-x-1 transition" size={16} />
                 </Link>

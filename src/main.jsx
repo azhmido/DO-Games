@@ -10,8 +10,7 @@ import GameDetail from "./pages/GameDetail";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Profile from "./pages/Profile";
-import Favorite from "./pages/Favorite";
-import Explore from "./pages/Explore";
+// import Favorite from "./pages/Favorite";
 import ProtectedRoute from "./components/ProtectedRoute";
 import "./index.css";
 import "./animations.css";
@@ -25,20 +24,11 @@ const router = createBrowserRouter([
       { path: "about", element: <About /> },
       { path: "games", element: <Games /> },
       { path: "games/:id", element: <GameDetail /> },
-      { path: "explore", element: <Explore /> },
       { 
         path: "profile", 
         element: (
           <ProtectedRoute>
             <Profile />
-          </ProtectedRoute>
-        ) 
-      },
-      { 
-        path: "favorites", 
-        element: (
-          <ProtectedRoute>
-            <Favorite />
           </ProtectedRoute>
         ) 
       },
